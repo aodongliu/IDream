@@ -1,0 +1,12 @@
+%oldchk=2water_geo.chk
+%chk=2water_RHF.chk
+%mem=110GB
+%nprocshared=28
+#p RHF/aug-cc-pvtz nosymm geom=checkpoint pop=full
+
+water dimer RHF
+
+0 1
+
+
+
